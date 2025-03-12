@@ -1,6 +1,3 @@
-
-
-
 def display_unique_numbers():
     numbers = []
     for i in range(10):
