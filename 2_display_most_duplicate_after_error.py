@@ -1,8 +1,3 @@
-
-
-
-# find the most duplicated 
-# display
 number_counts = {}
 
 while True:
