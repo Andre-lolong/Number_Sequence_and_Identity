@@ -1,4 +1,4 @@
-def display_unique_numbers():
+def display_duplicate_numbers():
     numbers = []
     for i in range(10):
             num = int(input(f"Enter value for number {i + 1}: ")) # ask the user for numbers
@@ -6,8 +6,8 @@ def display_unique_numbers():
 
     unique_numbers = [num for num in numbers if numbers.count(num) != 1] # check for duplicate
     if unique_numbers: # display duplicated numbers
-          print(f"Here are the list of numbers that do not have duplicates: {unique_numbers}")    
+          print(f"Here are the list of numbers that do have duplicates: {unique_numbers}")    
     else:
-          print("No unique numbers entered")
+          print("No duplicate numbers entered")
 
-display_unique_numbers()
+display_duplicate_numbers()
